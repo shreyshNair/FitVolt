@@ -73,17 +73,7 @@ fit-volt/
 └── index.html           # HTML template
 ```
 
----
 
-## 📸 Screenshots
-
-| Dashboard | Workout Tracking | Progress |
-| :---: | :---: | :---: |
-| ![Dashboard] | ![Tracking] | ![Progress] |
-
-*(Replace with actual screenshots of your application)*
-
----
 
 ## 🤝 Contributing
 
