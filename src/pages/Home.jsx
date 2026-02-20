@@ -8,13 +8,13 @@ import {
 } from 'lucide-react'
 
 const bodyParts = [
-    { id: 'all', label: 'All', emoji: '🔥' },
-    { id: 'legs', label: 'Leg', emoji: '🦵' },
-    { id: 'shoulder', label: 'Shoulder', emoji: '💪' },
-    { id: 'chest', label: 'Chest', emoji: '🫁' },
-    { id: 'back', label: 'Back', emoji: '🔙' },
-    { id: 'core', label: 'Core', emoji: '🎯' },
-    { id: 'arms', label: 'Arms', emoji: '💪' }
+    { id: 'all', label: 'All',  },
+    { id: 'legs', label: 'Leg',  },
+    { id: 'shoulder', label: 'Shoulder',   },
+    { id: 'chest', label: 'Chest',   },
+    { id: 'back', label: 'Back',   },
+    { id: 'core', label: 'Core',  },
+    { id: 'arms', label: 'Arms',   }
 ]
 
 export default function Home() {
@@ -53,7 +53,7 @@ export default function Home() {
                         <img src={profile.avatarUrl} alt={profile.fullName} />
                     </div>
                     <div className="home-greeting-text">
-                        <h2>Hi! {profile.fullName} 👋</h2>
+                        <h2>Hi! {profile.fullName} </h2>
                         <p>Welcome to FitVolt — let's crush your goals today!</p>
                     </div>
                 </div>
