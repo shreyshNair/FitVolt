@@ -1,16 +1,106 @@
-# React + Vite
+# ⚡ FitVolt — AI-Powered Workout Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![FitVolt Banner](https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&h=400&fit=crop)
 
-Currently, two official plugins are available:
+**FitVolt** is a modern, high-performance workout tracking application designed to help you crush your fitness goals. Featuring a sleek **Bento Grid** dashboard, real-time tracking, and progress visualization, FitVolt makes staying fit intuitive and engaging.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📊 **Dynamic Bento Dashboard**: A beautiful, responsive grid layout showing your daily calories, heart rate, and workout time at a glance.
+- 🏋️ **Diverse Workout Plans**: Categorized routines for Chest, Back, Legs, Shoulders, and Core.
+- ⏱️ **Active Tracking**: Real-time timer and set tracking during your workouts.
+- 📈 **Progress Analytics**: Visual charts (Gauge & Circular) to monitor your activity and calorie burn.
+- 👤 **Personalized Profiles**: Manage your fitness metrics (weight, height, age) and customize your experience.
+- 🔔 **Smart Notifications**: Stay updated with session reminders and coach feedback.
+- 🌓 **Premium Dark Aesthetics**: A high-end dark mode UI built with modern CSS techniques like glassmorphism and smooth animations.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+
+- **Core**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Routing**: [React Router 7](https://reactrouter.com/)
+- **Styling**: Vanilla CSS (Custom Variable System)
+- **State Management**: React Context API (useReducer + useContext)
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18.0.0 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/shreyshNair/fit-volt.git
+   cd fit-volt
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+The app should now be running at `http://localhost:5173`.
+
+---
+
+## 📁 Project Structure
+
+```text
+fit-volt/
+├── src/
+│   ├── components/      # Reusable UI components (Sidebar, BottomNav, Charts)
+│   ├── context/         # App state management (AppContext)
+│   ├── pages/           # Page containers (Home, Workouts, Progress, Profile)
+│   ├── App.jsx          # Main routing and shell
+│   ├── index.css        # Global styles and design system
+│   └── main.jsx         # App entry point
+├── public/              # Static assets
+└── index.html           # HTML template
+```
+
+---
+
+## 📸 Screenshots
+
+| Dashboard | Workout Tracking | Progress |
+| :---: | :---: | :---: |
+| ![Dashboard] | ![Tracking] | ![Progress] |
+
+*(Replace with actual screenshots of your application)*
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+Designed with ❤️ by [Jaishree](https://github.com/shreyshNair)
